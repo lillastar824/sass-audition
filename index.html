@@ -8,8 +8,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="dist/audition.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Muli?selection.family=Muli">
 
   <meta name="theme-color" content="#fafafa">
+
+  <style>
+    body {
+      font-family: "Muli", serif;
+    }
+  </style>
 </head>
 
 <body>
@@ -17,18 +24,35 @@
   <!-- Add your site or application content here -->
   <div class="container">
 
-    <div class="row">
-      <div class="col">
-        <section>
-          <div>
-            <p>Great! Your registry is published and ready to be shared.</p>
-            <a href="/">Share</a>
-            <a href="/">Preview</a>
-            <a href="/">Edit</a>
+    <section class="py-5">
+      <div class="row">
+        <div class="col-lg-6 d-flex align-items-center">
+          <div class="text-center text-lg-left w-100 mb-4 mb-lg-0">
+            <p class="cta_des d-lg-block d-none m-0">
+              <span><img src="img/alert.jpg" class="mr-2"></span>
+              <b>You are almost there!</b>
+              <span class="a_link">Add payment settings</span>
+              and you're ready to share.
+            </p>
+            <p class="cta_des d-lg-none d-block m-0"><b>Great!</b> Your registry is published and ready to be shared.</p>
           </div>
-        </section>
+        </div>
+        <div class="col-lg-6">
+          <div class="row cta_st">
+            <div class="col-sm-4 mb-3 mb-sm-0">
+              <a href="/" class="d-lg-block d-none">Add Payment</a>
+              <a href="/" class="d-lg-none d-block">Share</a>
+            </div>
+            <div class="col-sm-4 mb-3 mb-sm-0">
+              <a href="/" class="d-block">Preview</a>
+            </div>
+            <div class="col-sm-4 mb-3 mb-sm-0">
+              <a href="/" class="d-block">Edit</a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
   </div>
 

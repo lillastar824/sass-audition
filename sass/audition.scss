@@ -1,3 +1,29 @@
 // Bootstrap
 @import "vendor/bootstrap/scss/bootstrap.scss";
 
+.cta_des {
+    font-size: 14px;
+    img {
+        height: 30px;
+        border-radius: 5px;
+    }
+}
+.a_link {
+    color: #5a9cff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.cta_st a {
+    color: #5a9cff;
+    border: 2px solid;
+    padding: 15px 20px;
+    font-weight: 600;
+    text-decoration: none !important;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.cta_st a:hover {
+    background: #5a9cff;
+    color: #fff;
+}
